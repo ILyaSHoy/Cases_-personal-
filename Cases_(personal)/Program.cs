@@ -1,11 +1,19 @@
 ﻿using System;
 using System.Threading.Channels;
+using Microsoft.VisualBasic;
 
 namespace Cases_personal
 {
     internal class Program
     {
         static void Main(string[] args)
+        {
+            while(true)
+            {
+                main_game();
+            }
+        }
+        static void main_game()
         {
             //Определение редкости
             string common = "Обычный";
@@ -27,7 +35,7 @@ namespace Cases_personal
             {
                 Console.WriteLine($"{i}) {rarity[i]}");
             }
-            Console.WriteLine("\nВыш выбор");
+            Console.Write("\nВыш выбор: ");
             int choice = int.Parse(Console.ReadLine());
 
             //Генерация случайных значений шанса:
@@ -129,7 +137,7 @@ namespace Cases_personal
                     Console.WriteLine("Указан неизвестный тип кейса.");
                     Console.WriteLine("Пожалуста выберите верный тип занаво");
                 break;
-            }                    
-        }
+            }                  
+        } 
     }
 }

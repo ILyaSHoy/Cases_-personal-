@@ -12,3 +12,4 @@ D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\
 D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\Cases_(personal).pdb
 D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\Cases_(personal).genruntimeconfig.cache
 D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\ref\Cases_(personal).dll
+D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\Cases_(personal).sourcelink.json
