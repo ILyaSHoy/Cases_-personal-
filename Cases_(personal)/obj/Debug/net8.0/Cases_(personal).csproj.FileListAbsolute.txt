@@ -1,0 +1,14 @@
+D:\Программирование\Cases_(personal)\Cases_(personal)\bin\Debug\net8.0\Cases_(personal).exe
+D:\Программирование\Cases_(personal)\Cases_(personal)\bin\Debug\net8.0\Cases_(personal).deps.json
+D:\Программирование\Cases_(personal)\Cases_(personal)\bin\Debug\net8.0\Cases_(personal).runtimeconfig.json
+D:\Программирование\Cases_(personal)\Cases_(personal)\bin\Debug\net8.0\Cases_(personal).dll
+D:\Программирование\Cases_(personal)\Cases_(personal)\bin\Debug\net8.0\Cases_(personal).pdb
+D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\Cases_(personal).GeneratedMSBuildEditorConfig.editorconfig
+D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\Cases_(personal).AssemblyInfoInputs.cache
+D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\Cases_(personal).AssemblyInfo.cs
+D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\Cases_(personal).csproj.CoreCompileInputs.cache
+D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\Cases_(personal).dll
+D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\refint\Cases_(personal).dll
+D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\Cases_(personal).pdb
+D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\Cases_(personal).genruntimeconfig.cache
+D:\Программирование\Cases_(personal)\Cases_(personal)\obj\Debug\net8.0\ref\Cases_(personal).dll
