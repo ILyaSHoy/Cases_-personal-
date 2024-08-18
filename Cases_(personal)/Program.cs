@@ -11,6 +11,15 @@ namespace Cases_personal
             while(true)
             {
                 main_game();
+
+                Console.WriteLine("Хотите завершить игру?");
+                Console.WriteLine("Нажмите y(да)/n(нет)");
+                //Завершение игры
+                char choise = char.Parse(Console.ReadLine());
+                if (choise =='n')
+                {
+                    break;
+                }
             }
         }
         static void main_game()
