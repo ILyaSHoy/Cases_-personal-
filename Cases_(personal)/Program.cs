@@ -12,7 +12,7 @@ namespace Cases_personal
             {
                 main_game();
 
-                Console.WriteLine("Хотите завершить игру?");
+                Console.WriteLine("\nХотите завершить игру?");
                 Console.WriteLine("Нажмите y(да)/n(нет)");
                 //Завершение игры
                 char choise = char.Parse(Console.ReadLine());
@@ -24,19 +24,13 @@ namespace Cases_personal
         }
         static void main_game()
         {
-            //Определение редкости
-            string common = "Обычный";
-            string rare = "Редкий";
-            string epic = "Эпический";
-            string legendary = "Легендарный";
-
             //Добовление словаря;
             var rarity = new Dictionary<int,string>
             {
-                {1, common},
-                {2, rare},
-                {3, epic},
-                {4, legendary}
+                {1,"Обычный"},
+                {2, "Редкий"},
+                {3, "Эпический"},
+                {4, "Легендарный"}
             };
             //Этап выбора:
             Console.WriteLine("\t Выберите тип кейса:");
@@ -51,29 +45,29 @@ namespace Cases_personal
             Random random = new Random();
             int chance = random.Next(0,101);
 
-            Console.WriteLine("Chanse: "+ chance);
+            Console.WriteLine("\nChanse: "+ chance);
             switch (choice)
             {
                 // Шансы в обычном кейсе:
                 case 1:
                     if  (chance < 100 && chance > 40)
                     {
-                        Console.WriteLine($"Вы получили {rarity[1]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[1]} предмет");
                     }
 
                     if  (chance < 40 && chance > 20)
                     {
-                        Console.WriteLine($"Вы получили {rarity[2]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[2]} предмет");
                     }
 
                     if  (chance< 20 && chance> 5)
                     {
-                        Console.WriteLine($"Вы получили {rarity[3]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[3]} предмет");
                     }
 
                     if  (chance < 5 && chance > 0)
                     {
-                        Console.WriteLine($"Вы получили {rarity[4]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[4]} предмет");
                     }
                 break;
 
@@ -81,22 +75,22 @@ namespace Cases_personal
                 case 2:
                     if  (chance < 50 && chance > 30)
                     {
-                        Console.WriteLine($"Вы получили {rarity[1]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[1]} предмет");
                     }
 
                     if  (chance <100 && chance > 50)
                     {
-                        Console.WriteLine($"Вы получили {rarity[2]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[2]} предмет");
                     }
 
                     if  (chance< 30 && chance> 10)
                     {
-                        Console.WriteLine($"Вы получили {rarity[3]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[3]} предмет");
                     }
 
                     if  (chance < 10 && chance > 0)
                     {
-                        Console.WriteLine($"Вы получили {rarity[4]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[4]} предмет");
                     }
                     break;
 
@@ -104,22 +98,22 @@ namespace Cases_personal
                 case 3:
                     if  (chance < 20 && chance > 30)
                     {
-                        Console.WriteLine($"Вы получили {rarity[1]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[1]} предмет");
                     }
 
                     if  (chance < 50 && chance > 20)
                     {
-                        Console.WriteLine($"Вы получили {rarity[2]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[2]} предмет");
                     }
 
                     if  (chance< 100 && chance> 50)
                     {
-                        Console.WriteLine($"Вы получили {rarity[3]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[3]} предмет");
                     }
 
                     if  (chance < 20 && chance > 1)
                     {
-                        Console.WriteLine($"Вы получили {rarity[4]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[4]} предмет");
                     }
                 break;
 
@@ -127,23 +121,23 @@ namespace Cases_personal
                 case 4:
                     if  (chance < 10 && chance > 0)
                     {
-                        Console.WriteLine($"Вы получили {rarity[2]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[2]} предмет");
                     }
 
                     if  (chance< 30 && chance> 10)
                     {
-                        Console.WriteLine($"Вы получили {rarity[3]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[3]} предмет");
                     }
 
                     if  (chance < 100 && chance > 30)
                     {
-                        Console.WriteLine($"Вы получили {rarity[4]} предмет");
+                        Console.WriteLine($"\nВы получили {rarity[4]} предмет");
                     }
                 break;
 
                 //По умолчанию
                 default:
-                    Console.WriteLine("Указан неизвестный тип кейса.");
+                    Console.WriteLine("\nУказан неизвестный тип кейса.");
                     Console.WriteLine("Пожалуста выберите верный тип занаво");
                 break;
             }                  
